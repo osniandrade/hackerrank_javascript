@@ -17,6 +17,6 @@ function getLetter(s) {
         default:
             letter = 'D';
     }
-    return letter;
+    return (letter);
 }
 

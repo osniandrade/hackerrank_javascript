@@ -7,12 +7,12 @@
  * If 'a' is negative, throw an Error with the message "Negative Error"
  */
 function isPositive(a) {
-    let message;
-    try {
-      if(a > 0) { return 'YES'}
-      if(a < 0) { throw message = 'Negative Error'}
-      if(a == 0) { throw message = 'Zero Error'}
-    } catch (err){
-      return message
-    }
+	let message;
+	try {
+		if (a > 0) { return ('YES'); }
+		if (a < 0) { throw message = 'Negative Error'; }
+		if (a == 0) { throw message = 'Zero Error'; }
+	} catch (err) {
+		return (message);
+	}
 }

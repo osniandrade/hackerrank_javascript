@@ -7,12 +7,12 @@
  * objects: an array of objects with integer properties 'x' and 'y'
  */
 function getCount(objects) {
-    let contador = 0;
+	let contador = 0;
 
-    for(let ob in objects) {
-      if(objects[ob].x == objects[ob].y) { contador++; }
-    }
+	for (let ob in objects) {
+		if (objects[ob].x == objects[ob].y) { contador++; }
+	}
 
-    return contador
+	return (contador);
 }
 

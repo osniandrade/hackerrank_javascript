@@ -16,6 +16,5 @@ function perim() {
     for (let ind in this.sides) {
         perimeter += this.sides[ind];
     }
-    return perimeter
+    return (perimeter);
 }
-

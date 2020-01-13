@@ -11,5 +11,5 @@ function Rectangle(a, b) {
     ret.perimeter = 2 * (a + b);
     ret.area = a * b;
 
-    return ret
+    return (ret);
 }

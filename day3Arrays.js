@@ -6,17 +6,17 @@
 *   @return {Number} The second largest number in the array.
 **/
 function getSecondLargest(nums) {
-    let largest = 0;
-    let secLargest = 0;
-    
-    nums.sort(function(a, b){return a-b})
+	let largest = 0;
+	let secLargest = 0;
 
-    for (let i in nums) {
-      if (nums[i] > largest) {
-        secLargest = largest;
-        largest = nums[i];
-      }
-    }
-    return secLargest
+	nums.sort(function (a, b) { 
+		return (a - b); 
+	})
+	for (let i in nums) {
+		if (nums[i] > largest) {
+			secLargest = largest;
+			largest = nums[i];
+		}
+	}
+	return (secLargest);
 }
-
